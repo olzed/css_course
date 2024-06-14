@@ -5,3 +5,16 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+ul li:nth-child(odd) {
+  list-style-type: upper-roman;
+  padding: 5px;
+}
+
+::marker {
+  color: red;
+  font-family: Fantasy;
+  padding: 5px;
+  font-size: 1rem;
+  content: "For only $5 >>>>> ";
+}

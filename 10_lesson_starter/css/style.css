@@ -5,3 +5,36 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.opposite {
+  background-color: #333;
+  display: inline-block;
+  padding: 3rem;
+  color: whitesmoke;
+}
+
+p {
+  background-color: lightgray;
+  margin: 100px 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  background-color: #000;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover, a:focus {
+  text-decoration: underline;
+}
